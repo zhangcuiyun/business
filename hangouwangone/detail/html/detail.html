@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>汉购网</title>
+		
+		<link href="../css/reset.css" rel="stylesheet" type="text/css" />
+		<link href="../css/common.css" rel="stylesheet" type="text/css" />
+		<link href="../css/detail.css" rel="stylesheet " type="text/css" />
+	
+		<script src="../js/jquery-1.12.3.js"></script>
+		<script src="../js/detail.js"></script>
+		<script src="../js/jquery-1.7.2.min.js"></script>
+		<script src="../js/jquery.cookie.js"></script>
+		<script src="../js/cookie.js"></script>
+		<script src="../js/address.js"></script>
+		<script src="../js/detail01.js"></script>
+		
+	<script>
+		$(function(){
+			if($.cookie("jianshu")){
+		$( "#cart .tip").html(JSON.parse($.cookie("jianshu")));
+		$("#num-1").html(JSON.parse($.cookie("jianshu")))
+	}
+ 
+		})
+	</script>
+	
+	</head>
+	<body>
+		<div id="n-fixed">
+			<div class="users">
+				<p><a href="javascript">
+						<img src="../images/img-002.gif" style="width:28px;height: 28px;border-radius: 14px;" />
+					</a>
+					<span class="huiyuan">会员登录</span>
+				</p>
+				
+				<div id="login1">
+					
+				</div>
+				<div id="cart01">
+					
+					<a href="../../cart/html/cart.html"><i></i></a>
+					<span id="num-1">0</span>
+				
+				</div>
+					<em>购物车</em> 
+			</div>
+			<div id="dingbu" style="position:absolute;bottom:0;width: 30px;height: 100px;">
+				<i class="dingbu-icon" style="width: 30px;height: 20px;font-size: 35px;">^</i>
+				回到顶部
+			</div>
+		</div>
+		<div id="top-wrapper">
+			<div id="top">
+				<div id="user-login">
+					您好，<span id="username001" style="display: inline-block;"></span>欢迎来到汉购网<a href="../../login/html/login.html" class="login">请登录</a>
+					<a href="../../register/html/register.html">立即注册</a>
+				</div>
+				<ul id="menu">
+					<li>
+						<i class="shop"></i>
+						<a href="javascript:;">商品入驻</a>
+					</li>
+					<li class="one">
+						<i class="list"></i>
+						<a href="javascript:;">我的订单</a>
+						<i class="list_show"></i>
+						<div class="me">																					
+							<p>待付款订单</p>
+							<p>待确认收货</p>
+							<p>待评价交易</p>					
+						</div>	
+					</li>
+					
+					
+					<li >
+						<i class="center"></i>
+						<a href="javascript:;">个人中心</a>
+					</li>
+					<li class="two">
+						<i class="com"></i>
+						<a href="javascript:;">客户中心</a>
+						<i  class="list_show"></i>
+						<ul class="list-com" >
+								<li><a href="javascript:;">帮助中心</a></li>
+								<li><a href="javascript:;">售后服务</a></li>
+								<li><a href="javascript:;">客服中心</a></li>
+						</ul>
+					</li>
+						
+					<li class="three">
+						<i class="weixin"></i>
+						<a href="javascript:;">关注我们</a>
+						<i  class="list_show"><i>
+						<ul class="list-us">
+							<li><h4>扫码关注<br/>关注商城或微信</h4></li>
+							<li><img src="../images/mb_app.png" style="width:96px;height：96px"/></li>
+						</ul>	
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+		<!--头部-->
+		<div id="header-wrapper">
+			<div id="header">
+				<div id="logo">        
+					<h1><a href="../../index/html/index.html" title="欢迎来到汉购网" alt="汉购网">汉购网</a></h1>		
+				</div>
+				<div id="search">
+					<div id="txt">
+						<input type="text" placeholder="农谷鲜" id="txt1" />
+						<i></i>
+					</div>	
+					<p>
+						<a href="javascript:;">鸡蛋</a>
+						<a href="javascript:;">豆皮</a>
+						<a href="javascript:;">啤酒</a>
+						<a href="javascript:;">苹果</a>
+						<a href="javascript:;">土豆</a>
+						<a href="javascript:;">米</a>
+						<a href="javascript:;">油</a>
+						<a href="javascript:;">热干面</a>
+						<a href="javascript:;">龙虾</a>
+						<a href="javascript:;">锅巴</a>
+						<a href="javascript:;">罐头</a>
+						<a href="javascript:;">夏橙</a>
+
+					</p>
+				</div>
+				<ul id="active">
+					<li>100%正品  真品真实惠</li>
+					<li>产地直供  原汁原味</li>
+					<li>优质配送</li>
+				</ul>
+			</div>
+		 </div>
+		 <div id="nav-wrapper">
+		 	<div id="nav" class="clear"/>
+		 		<div id="all">
+		 			<span>全部分类</span>
+		 			<ul class="alllist">
+		 				<li >
+		 					<div  id="mar-01"style="width: 200px;height:74px;margin-left: 0;">
+			 					<a href="../../goodslist/html/goodlist.html"><img src="../images/05253521399269607.png" /></a>
+			 					<span><a href="../../goodslist/html/goodlist.html">生鲜水果</a></span>
+			 					<dl class="list-one">
+			 						<dd>
+			 							肉类
+			 							<dl class="list-two">
+				 							<dt>羊肉</dt>
+				 							<dt>羊肚</dt>
+				 							<dt>羊腿</dt>
+				 							<dt>羊腰子</dt>
+				 							<dt>牛肉</dt>
+				 							<dt>兔肉</dt>
+			 							</dl>
+			 						</dd>
+			 						<dd>
+			 							水果
+			 							<dl class="list-three">
+				 							<dt>猕猴桃</dt>
+				 							<dt>榴莲</dt>
+				 							<dt>柑橘</dt>
+				 							<dt>西柚</dt>
+				 							<dt>石榴</dt>
+				 							<dt>苹果</dt>
+				 							<dt>梨子</dt>
+				 							<dt>橙子</dt>
+				 							<dt>地瓜</dt>
+			 							</dl>
+			 						</dd>
+			 						<dd>
+			 							海鲜/水产品
+			 							<dl class="list-four">
+				 							<dt>大闸蟹</dt>
+				 							<dt>龙虾</dt>
+				 							
+			 							</dl>
+			 						</dd>
+			 						<dd>
+			 							蔬菜
+			 							<dl class="list-five">
+				 							<dt>土豆</dt>
+				 							<dt>什锦蔬菜</dt>
+				 							
+			 							</dl>
+			 						</dd>
+			 						
+			 					</dl>
+			 				</div>
+			 				</li>
+		 				
+		 					
+		 				<li >
+		 					<div id="mar-02" style="width: 200px;height:74px;margin-left: 0;">
+		 					
+			 					<a href="javascript:;"><img src="../images/05253526167588528.png" /></a>
+			 					<span>蛋奶速食</span>
+			 				</div>
+		 				</li>
+		 				<li >
+		 					<div id="mar-04" style="width: 200px;height:74px;margin-left: 0;">
+		 					
+			 					<a href="javascript:;"><img src="../images/05253526577436238.png" /></a>
+			 					<span>休闲零食</span>
+		 					</div>
+		 				</li>
+		 				<li >
+		 					<div id="mar-03" style="width: 200px;height:74px;margin-left: 0;">
+		 					
+			 					<a href="javascript:;"><img src="../images/05253526909294030.png" /></a>
+			 					<span>粮油杂货</span>
+		 					</div>
+		 				</li>
+		 				<li class="last ">
+		 					<div id="mar-05" style="width: 200px;height:74px;margin-left: 0;">
+		 					
+			 					<a href="javascript:;"><img src="../images/05253527311172374.png" /></a>
+			 					<span>酒水饮品</span>
+		 					</div>
+		 				</li>
+		 			</ul>
+		 		</div>
+		 		<ul id="site-menu">
+		 			<li >
+		 				
+		 				<a href="../../index/html/index.html" class="hover">首页</a>
+		 			</li>
+		 			<li>
+		 				<a href="javascript:;">森林特产</a>
+		 			</li>
+		 			<li>
+		 				<a href="javascript:;">农谷鲜</a>
+		 			</li>
+		 			<li>
+		 				<a href="javascript:;"> 醉美鹤峰土家购</a>
+		 				<i class="new"></i>
+		 			</li>
+		 			<li>
+		 				<a href="javascript:;"> 保康特色馆</a>
+		 				<i class="new"></i>
+		 			</li>
+		 			<li>
+		 				<a href="javascript:;"> 县域特产-优品扶植</a>
+		 				<i class="hot"></i>
+		 			</li>
+		 		</ul>
+		 		<div id="cart">
+		 			<i></i>
+		 			<em class="tip">0</em>
+		 			<span>购物车</span>
+		 		</div>
+		 		
+		 	</div>
+		 	
+		 </div>
+		<div id="detail-wrapper">
+			<div id="detail">
+				<div id="left">
+					<div id="box">
+						<div id="middleImg">
+						<img src="" class="img1"/>
+							<div id="middleArea"></div>
+						</div>
+						<div id="small">
+							<ul>
+								<li><img src="../images/11_1.jpg" /></li>
+								<li><img src="../images/12_1.jpg" /></li>
+								<li><img src="../images/13_1.jpg" /></li>
+								<li><img src="../images/14_1.jpg" /></li>
+								<li><img src="../images/15_1.jpg" /></li>
+								
+							</ul>
+						</div>
+						<div id="bigArea">
+							<img id="bigImg" src="../images/11_3.jpg"  />
+						</div>
+					</div> 
+					<div id="box2">
+						<h1 class="title"></h1>
+						<span>预售11月19日</span>
+						<div class="box2-bg">
+							<p>
+								<span class="mark"><!--市场价：--></span>
+								<strong class="unit"><!--￥14.80--></strong>
+								<strong class="markprice"><!--￥19.80--></strong>
+							</p>
+							<p>
+								<span class="shop"><!--商  城  价：--></span>
+								<strong class="unit"><!--￥14.80--></strong>
+								<strong class="shopprice"><!--￥14.80--></strong>
+							</p>
+							
+							<p>
+								<span class="grade"><!--商品评分：--></span>
+								<a  href="#" class="tall"><!--共有0条评价--></a>
+							</p>
+							<div class="erweima" style="position: absolute;top:5px;left: 430px;">
+								<img src="../images/mb_app.png" /><br/>
+								客户端扫购有惊喜
+							</div>
+						</div>
+						<div id="address">
+							<span style="display: inline-block;height: 40px;line-height: 40px;margin-right: 60px;">配送至</span>
+								<div id="sjld" style="width:520px;margin:0 auto;position:relative;">
+							
+								<div class="m_zlxg" id="shenfen">
+							
+									<p title="" >选择省份</p>
+							
+									<div class="m_zlxg2" style="z-index:2;">
+							
+										<ul ></ul>
+							
+									</div>
+							
+								</div>
+							
+								<div class="m_zlxg" id="chengshi">
+							
+									<p title="">选择城市</p>
+							
+									<div class="m_zlxg2" style="z-index:2;">
+							
+										<ul></ul>
+							
+									</div>
+							
+								</div>
+							
+								<div class="m_zlxg" id="quyu">
+							
+									<p title="">选择区域</p>
+							
+									<div class="m_zlxg2" style="z-index:2;">
+							
+										<ul></ul>
+							
+									</div>
+							
+								</div>
+							
+								<input id="sfdq_num" type="hidden" value="" />
+							
+								<input id="csdq_num" type="hidden" value="" />
+							
+								<input id="sfdq_tj" type="hidden" value="" />
+							
+								<input id="csdq_tj" type="hidden" value="" />
+							
+								<input id="qydq_tj" type="hidden" value="" />
+							
+							</div>
+							<span class="has">有货</span><span class="yunfei">免运费</span>
+						</div>
+						
+						
+						
+						<ul id="goods-last">
+							<li>
+								<input type="text" value="1" id="num" />
+								<input type="button" value="+" id="add" />
+								<input type="button" value="-" id="reduce" />
+							</li>
+							<li>
+								<i></i>
+								<input class="intocart" type="button" value="加入购物车" >
+							</li>
+							<li>
+								<input type="button" value="立即购买 " class="shopping">
+							</li>
+						</ul>
+						
+					</div>
+					
+				</div>
+				<div id="right">
+					<dl>
+						<dt>宜昌慧云特产专营店</dt>
+						<dd class="clear">
+							<ul class="clear">
+								<li>
+									<h4>描述</h4>
+									<a>4.9</a>
+								</li>
+								<li>
+									<h4>服务</h4>
+									<a>4.9</a>
+								</li>
+								<li>
+									<h4>物流</h4>
+									<a>5.0</a>
+								</li>
+								
+							</ul>
+						</dd>
+					</dl>
+				</div>
+			</div>
+			
+		</div>
+		 
+		
+	
+	
+	
+			
+		
+	</body>
+</html>

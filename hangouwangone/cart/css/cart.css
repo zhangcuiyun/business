@@ -1,0 +1,207 @@
+#header-wrapper #header #ncc-flow{
+	width: 640px;
+padding:40px 0 0 240px;
+	float: left;
+	height: 110px;
+}
+
+#header-wrapper #header #ncc-flow li{
+	position: relative;
+	float: left;
+	height: 70px;
+	width: 160px;
+	text-align: center;
+}
+
+#header-wrapper #header #ncc-flow li .step-1{
+	display: inline-block;
+	width:30px;
+	height: 30px;
+	background: url(../images/buy_step.gif) no-repeat;
+	background-position: 0 -30px;
+	margin-bottom:5px ;
+	
+	
+}
+#header-wrapper #header #ncc-flow li .step-2{
+	display: inline-block;
+	width:30px;
+	height: 30px;
+	background: url(../images/buy_step.gif) no-repeat;
+	background-position: -30px 0;
+	margin-bottom:5px ;
+	
+}
+#header-wrapper #header #ncc-flow li .step-3{
+	display: inline-block;
+	width:30px;
+	height: 30px;
+	background: url(../images/buy_step.gif) no-repeat;
+	background-position: -60px 0;
+	margin-bottom:5px ;
+	}
+#header-wrapper #header #ncc-flow li .step-4{
+	display: inline-block;
+	width:30px;
+	height: 30px;
+	background: url(../images/buy_step.gif) no-repeat;
+	background-position: -90px 0;
+	margin-bottom:5px ;
+	
+}
+#header-wrapper #header #ncc-flow li #hr{
+	border: 0.5px solid #ccc;
+	width: 160px;
+}
+#header-wrapper #header #ncc-flow li #hr.active{
+	border: 0.5px solid skyblue;
+	
+}
+#header-wrapper #header #ncc-flow li p.active2{
+	color:skyblue;
+}
+#header-wrapper #header #ncc-flow li sub.active1{
+	background: skyblue;
+	
+}
+
+
+
+#header-wrapper #header #ncc-flow li sub{
+	width:5px;
+	height: 5px;
+		top:36px;
+		left: 78px;
+	background:#ccc;
+	position: absolute;
+	border-radius: 50%;
+}
+#main-wraper{
+width: 100%;
+
+}
+#main-wraper #main{
+	
+	margin: 0 auto;
+	width: 1200px;
+}
+#main-wraper #main h3{
+	color: #000;
+	font-size: 24px;
+}
+#cartlist{
+	
+	background: #ccc;
+}
+#cartlist li{
+	
+	height: 40px;
+	float: left;
+	line-height: 40px;
+}
+#good-name{
+	padding: 5px;
+	border:1px solid #ccc;
+	overflow: auto;
+}
+#cartlist .w100{
+	width: 100px;
+}
+#cartlist .w500{
+	width: 500px;
+	text-align: center;
+}
+#cartlist .w150{
+	width: 150px;
+	text-align: center;
+}
+#cartlist .w101{
+	width: 101px;
+	text-align: center;
+}
+#cartlist .w170{
+	width: 170px;
+	text-align: center;
+}
+#cartlist .w-102{
+	width: 102px;
+	text-align: center;
+}
+
+#list{
+	border:1px solid #ccc;
+}
+.allmoney{
+	margin-left: 800px;
+	color:red;
+	font-size: 24px;
+	
+}
+.img {margin-left: 20px;
+		width: 60px; height: 60px;
+	}
+.num {
+	width: 30px;
+	text-align: center;	}
+.sanme{
+	font-size: 16px;
+	height: 26px;
+	color:#000;
+}
+.price{
+	color:#000;
+	margin-left: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 16px;
+	height: 80px;
+}
+.title{
+	height: 60px;
+	margin-left: 20px;
+	width: 400px;
+	display: inline-block;
+	vertical-align: middle;
+	
+}
+.add{
+	height: 45px;
+	margin-left: 60px;
+	display: inline-block;
+	vertical-align:  top;
+	border:1px solid #ccc;
+	
+}
+.num{height: 40px;
+	border:1px solid #ccc;
+	display: inline-block;
+	vertical-align: top;
+	
+}
+.reduce{height: 45px;
+	border:1px solid #ccc;
+	display: inline-block;
+	vertical-align: top;
+	
+}
+.prices{
+	display: inline-block;
+	height: 60px;
+	width: 30px;
+	margin-left:80px;
+	vertical-align: top;
+	font-size: 16px;
+	color:red;
+	
+}
+.del{
+	display: inline-block;
+	height: 40px;
+	width: 30px;
+	margin-left:70px;
+	vertical-align: top;
+}
+#total{
+	display:inline-block;
+	width:100px;
+}

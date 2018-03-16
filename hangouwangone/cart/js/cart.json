@@ -1,0 +1,55 @@
+{
+	"status": 1,
+	"msg": "success",
+	"goodsdata": [
+		{
+			"id": 110,
+			"title": "恩施特产 火锅搭档2件套 豆皮粉丝组合装 豆皮500g+红薯粉丝400g",
+			"timesho":"【预售】11月19日发货 秭归纽荷尔脐橙5斤装新鲜橙子包邮",
+			"mark":"市场价：",
+			"shop":"商  城  价：",
+			"unit":"￥",
+			"markprice":"19.80",
+			"shopprice":"14.80",
+			"grade":"商品评分：",
+			"tall": "共有1条评价",
+			"sname":"荆门众邦特色馆",
+			"img":"../images/techan-01.jpg",
+			"img1":"../images/11_2.jpg"
+
+			
+		},
+		{
+			"id": 111,
+			"title": "神农架林区国家地理标志保护产品 农家自种 黄心小土豆5斤装包邮",
+			"timesho":"【预售】11月20日发货 秭归纽荷尔脐橙5斤装新鲜橙子包邮",
+			"sname":"荆门众邦特色馆",
+			"mark":"市场价：",
+			"shop":"商  城  价：",
+			"unit":"￥",
+			"markprice":"89.00",
+			"shopprice":"15.90",
+			"grade":"商品评分：",
+			"tall": "共有10条评价",
+			"img":"../images/techan-02.jpg",
+			"img1":"../images/16_2.jpg"
+			
+			
+		},
+		{
+			"id": 112,
+			"title": "汉美特 随州香菇250g   出口品质 肉质肥厚",
+			"timesho":"【预售】11月31日发货 秭归纽荷尔脐橙5斤装新鲜橙子包邮",
+			"sname":"荆门众邦特色馆",
+			"mark":"市场价：",
+			"shop":"商  城  价：",
+			"markprice":"29.00",
+			"shopprice":"17.50",
+			"grade":"商品评分：",
+			"tall": "共有0条评价",
+			"img":"../images/techan-03.jpg",
+			"img1":"../images/21_2.jpg"
+			
+		}
+	]
+}

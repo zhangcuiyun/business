@@ -1,0 +1,67 @@
+{
+	"status": 1,
+	"msg": "success",
+	"lunbodata": [
+		{
+			"id": 101,
+			
+			"img": "../images/bg-1.jpg"
+			
+		},
+		{
+			"id": 102,
+			
+			"img": "../images/bg-2.jpg"
+			
+		},
+		{"id": 103,
+			
+			"img": "../images/bg-3.jpg"
+			
+		},
+		{
+			"id": 104,
+			
+			"img": "../images/bg-4.jpg"
+			
+		}
+		
+	],
+	"goodsdata": [
+		{
+			"id": 110,
+			"title": "恩施特产 火锅搭档2件套 豆皮粉丝组合装 豆皮500g+红薯粉丝400g",
+			"markprice":"￥19.80",
+			"shopprice":"￥14.80",
+			"tall": "共有0条评价",
+			"img":"../images/techan-01.jpg",
+			"img1":"../images/11_2.jpg"
+			
+		
+			
+			
+		},
+		{
+			"id": 111,
+			"name": "神农架林区国家地理标志保护产品 农家自种 黄心小土豆5斤装包邮",
+			"markprice":"￥89.00",
+			"shopprice":"￥15.90",
+			"tall": "共有0条评价",
+			"img":"../images/techan-02.jpg",
+			"img1":"../images/16_2.jpg"
+			
+		},
+		{
+			"id": 112,
+			"name": "汉美特 随州香菇250g   出口品质 肉质肥厚",
+			"markprice":"￥29.00",
+			"shopprice":"￥17.50",
+			"tall": "共有0条评价",
+			"img":"../images/techan-03.jpg",
+			"img1":"../images/21_2.jpg"
+			
+		}
+	]
+	
+	
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link href="../css/reset.css" rel="stylesheet" type="text/css" />
+		<link href="../css/common.css"  rel="stylesheet" type="text/css" />
+		<link href="../css/style-1.0.0.css" rel="stylesheet" type="text/css" />
+		<link href="../css/jquery.idcode.css"type="text/css" rel="stylesheet" />
+	
+		<script src="../js/jquery-1.12.3.js"></script>
+		<script src="../js/jquery-1.12.3.min.js"></script>
+		<script src="../js/jquery.idcode.js"></script>
+		<script src="../js/cookie.js"></script>
+		<script src="../js/register.js"></script>
+		
+		<script></script>
+	</head>
+	<body>
+		<div id="header-wrapper">
+			<div id="header">
+				<div id="logo">        
+					<h1><a href="#" title="欢迎来到汉购网" alt="汉购网">汉购网</a></h1>		
+				</div>
+				<div id="nav">
+				我已经注册，现在就
+				<a href="../../login/html/login.html">登录</a>
+				</div>
+			</div>
+		</div>
+		<div id="main-wrapper">
+			<div id="register-box">
+				<div id="register-layout">
+					<div id="left">
+						<ul id="menu">
+							<li>账号注册
+								<a href="#">
+									
+									<i></i>
+								</a>
+							</li>
+							<li>手机注册
+								<a href="#"style="display: none;">
+									
+									<i ></i>
+								</a>
+							</li>
+						</ul>
+						<div id="content">
+							<div id="default1" class="list">
+								<form>
+									<dl >
+										<dt>用户名:</dt>
+										<dd><input type="text" id="inp1" placeholder="请使用3-15个中、英文、数字及“-”符号" /></dd>
+										<span id="tip1" style="width: 100px; height: 50px;line-height:50px;background: pink;position: absolute;top:20px;left:470px ;"></span>
+									</dl>
+									<dl>
+										<dt>密码:</dt>
+										<dd><input type="password"placeholder="6-20个大小写英文字母、符号或数字" id="inp2"/></dd>
+										<span id="tip2" style="width: 100px; height: 50px;line-height:50px;background: pink;position: absolute;top:76px;left:470px ;"></span>
+										
+									</dl>
+									<dl>
+										<dt>确认密码:</dt>
+										<dd><input type="password" placeholder="请再次输入密码" id="inp3"/></dd>
+										<span id="tip3" style="width: 100px; height: 50px;line-height:50px;background: pink;position: absolute;top:129px;left:470px ;"></span>
+										
+									</dl>
+									<dl>
+										<dt>验证码:</dt>
+										<dd><input type="text" placeholder="请输入验证码" id ="Txtidcode" style="width:150px;"/>
+										<span id="idcode" ></span>
+										</dd>
+										<span id="tip4" style="width: 100px; height: 50px;line-height:50px;background: pink;position: absolute;top:186px;left:470px ;"></span>
+										
+									</dl>
+									<dl >
+										
+										<dd class="ckbox">
+											<input type="checkbox"  id="ckb"checked="checked"  style="width: 100px;height: 40px;"/>  阅读并同意
+											<a title="阅读并同意" style="height: 50px;width: 100px;line-height:50px;line-height: 50px;">《服务协议》</a>
+										</dd>
+									</dl>
+									<div class="submit">
+                  					<input id="inp5" value="立即注册" class="submit" type="button">
+                  					</div>
+
+								</form>
+							</div>
+							<div id="phone" class="list"style="display: none;">
+								<form>
+									<dl>
+										<dt>手机号码</dt>
+										<dd><input type="text" placeholder="请输入手机号码"/></dd>
+									</dl>
+									<dl>
+										<dt>验证码：</dt>
+										<dd><input type="text" placeholder="请输入验证码"/></dd>
+									</dl>
+									<div class="tip01" style="height:80px;">
+										确保上方验证码输入正确，
+										
+										<a style="display: inline-block;height: 20px;width: 60px;background: greenyellow;color:#fff;margin-top:10px;">发送短信验证</a>
+										<span>，并将您手机短信所接收到的“6位动态码”输入到下方短信验证，再提交下一步。</span>
+									</div>
+									<dl>
+										<dt>短信验证：</dt>
+										<dd><input type="text" placeholder="输入6位短信验证码"/></dd>
+									</dl>
+									<dl>
+										
+										<dd><input type="button" value="下一步" id="btn1" style="width: 400px;background: red; color: #fff";/></dd>
+									</dl>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div id="right">
+						<h4>使用合作网站账号直接登录</h4>
+						<p><a href="#" class="qq001"></a><a href="#" class="weixin001"></a></p>
+						<p style="width:200px;border:1px dashed #ccc"></p>
+						<div class="after1">
+							<h4 style="padding-top: 20px;margin-bottom:20px">注册之后您可以</h4>
+							<ul>
+								<li class="icon1">
+									<i></i>
+									购买商品支付订单
+								</li>
+								<li class="icon2">
+									<i></i>
+									收藏商品关注店铺
+								</li>
+								<li class="icon3">
+									<i></i>
+									收藏商品关注店铺
+								</li>
+								<li class="icon4">
+									<i></i>
+									收藏商品关注店铺
+								</li>
+								<li class="icon5">
+									<i></i>
+									收藏商品关注店铺
+								</li>
+								<li class="icon6">
+									安全交易诚信无忧
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

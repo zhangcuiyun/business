@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>汉购网</title>
+		<link href="../css/reset.css" rel="stylesheet" type="text/css" />
+		<link href="../css/common.css" rel="stylesheet" type="text/css" />
+		<link href="../css/cart.css" rel="stylesheet" type="text/css" />
+		<script src="../js/jquery-1.12.3.js"></script>
+		<script src="../js/jquery.cookie.js"></script>
+		<script src="../js/cookie.js"></script>
+		<script src="../js/cart.js"></script>
+	</head>
+	<body>
+		<div id="top-wrapper">
+			<div id="top">
+				<div id="user-login">
+					您好<a href="#"><span id="username01" style="display: inline-block;"></span></a>欢迎来到汉购网
+					<a href="../../login/html/login.html">退出</a>
+				</div>
+				<ul id="menu"> 
+					<li>
+						<i class="shop"></i>
+						<a href="javascript:;">商品入驻</a>
+					</li>
+					<li class="one">
+						<i class="list"></i>
+						<a href="javascript:;">我的订单</a>
+						<i class="list_show"></i>
+						<div class="me">																					
+							<p>待付款订单</p>
+							<p>待确认收货</p>
+							<p>待评价交易</p>					
+						</div>	
+					</li>
+					
+					
+					<li >
+						<i class="center"></i>
+						<a href="javascript:;">个人中心</a>
+					</li>
+					<li class="two">
+						<i class="com"></i>
+						<a href="javascript:;">客户中心</a>
+						<i  class="list_show"></i>
+						<ul class="list-com" >
+								<li><a href="javascript:;">帮助中心</a></li>
+								<li><a href="javascript:;">售后服务</a></li>
+								<li><a href="javascript:;">客服中心</a></li>
+						</ul>
+					</li>
+						
+					<li class="three">
+						<i class="weixin"></i>
+						<a href="javascript:;">关注我们</a>
+						<i  class="list_show" ><i>
+						<ul class="list-us">
+							<li><h4>扫码关注<br/>关注商城或微信</h4></li>
+							<li><img src="../images/mb_app.png" style="width:96px;height：96px"/></li>
+						</ul>	
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+		<!--头部-->
+		<div id="header-wrapper">
+			<div id="header">
+				<div id="logo">        
+					<h1><a href="../../index/html/index.html" title="欢迎来到汉购网" alt="汉购网">汉购网</a></h1>		
+				</div>
+				<ul id="ncc-flow">
+					<li>
+						<i class="step-1"></i>					
+						<sub class="active1"></sub>
+						<div id="hr"class="active"></div>
+						<p class="active2">我的购物车</p>
+					</li>
+					<li>
+						<i class="step-2"></i>						
+						<sub></sub>
+						<div id="hr"></div>
+						<p>确认订单</p>
+					</li>
+					<li>
+						<i class="step-3"></i>						
+						<sub></sub>
+						<div id="hr"></div>
+						<p>支付提交</p>
+					</li>
+					<li>
+						<i class="step-4"></i>						
+						<sub></sub>
+						<div id="hr"></div>
+						<p>订单完成</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="main-wraper">
+			<div id="main">
+				<h3>我的购物车</h3>
+				<h5>查看购物车商品清单，增加减少商品数量，并勾选想要的商品进入下一步操作。</h5>
+					<div id="mycart">
+						<ul id="cartlist" class="clear">
+							<li class="w100">
+								全选<input type="checkbox" id="allCheck" />
+							</li>
+							<li class="w500">
+								商品
+							</li>
+							<li class="w150">
+								单价
+							</li>
+							<li class="w101">
+								数量
+							</li>
+							<li class="w170">
+								小计(元)
+							</li>
+							<li class="w102">
+								操作
+							</li>
+					
+						</ul>
+			
+						<ul id="list">
+							<!--<li>
+								<input class="ckbox" type="checkbox" />
+								<img class="img" src="images/1.jpg" />
+								<span class="name">单车</span>
+								<span class="price">￥1000</span>
+								<input class="add" type="button" value="+" />
+								<input class="num" type="text" value="1" />
+								<input class="reduce" type="button" value="-" />
+								<a class="del" href="javascript:;">删除</a>
+							</li>
+							<li>
+								<input class="ckbox" type="checkbox" />
+								<img class="img" src="images/1.jpg" />
+								<span class="name">单车</span>
+								<span class="price">￥1000</span>
+								<input class="add" type="button" value="+" />
+								<input class="num" type="text" value="1" />
+								<input class="reduce" type="button" value="-" />
+								<a class="del" href="javascript:;">删除</a>
+							</li>-->
+						</ul>
+						<br />
+				<a href="javascript:;" id="delSelect">删除选中</a>
+				<p class="allmoney">总价： <span id="total" >0</span></p>
+						</div>
+					<p class="tip" style="position: absolute;top:0;right:0 color:#fff"></p>		
+			</div>
+			
+			
+		</div>
+		
+		<div id="footer">
+	
+	<div id="foot-bg2">
+		<div id="foot-bg2-inner">
+			<p><a href="../../index/html/index.html"style="border:none">返回首页</a>
+				<a href="javascript:;">商家入驻</a>
+				<a href="javascript:;">联系我们</a>
+				<a href="javascript:;">关于汉购网</a>
+				<a href="javascript:;">汉搜云</a>
+				<a href="javascript:;" >友情链接</a>
+			</p>
+			<p>©2005-2016 武汉易行九州网络服务有限公司版权所有，并保留所有权利</p>
+		</div>
+	</div>
+	<div id="foot-bg3">
+		<div id="foot-bg3-inner">
+			<a href="javascript:;"><img src="../images/img-01.png"/></a>
+			<a href="javascript:;"><img src="../images/gangting.gif"/></a>
+			<a href="javascript:;"><img src="../images/beian.jpg"/></a>
+			<a href="javascript:;"><img src="../images/gongshang-icon.png"/></a>
+
+		</div>
+	</div>
+</div>
+	</body>
+</html>

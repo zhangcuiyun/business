@@ -1,0 +1,244 @@
+#nav{
+	float: right;
+	height: 80px;
+	line-height: 80px;
+	margin-top:30px;
+	
+}
+
+#main-wrapper{
+	height: 800px;
+	
+	width: 100%;
+	background: url(../images/register_bg.png);
+	
+}
+#register-box{
+	overflow: hidden;
+	width: 860px;
+	height: 560px;
+	padding:10px;
+	background: rgba(0,0,0,0.15);
+	margin: 50px 300px;
+	float: left;
+}
+#register-layout{
+	width: 820px;
+	height: 520px;
+	padding: 19px;
+	border:1px solid #ccc;
+	background: #fff;
+	overflow: hidden;
+	
+}
+#register-layout #left{
+	width: 600px;
+	height: 560px;
+	float: left;
+}
+#register-layout #left #menu{
+	height: 40px;
+	width: 580px;
+	border-bottom: solid 1px #E6E6E6;
+	
+}
+#register-layout #left #menu li{
+	float: left;
+	height: 40px;
+	width: 50%;
+	
+	margin-bottom: -1px;
+	text-align: center;
+}
+#register-layout #left #menu li a{
+	display: inline-block;
+	width: 300px;
+	font-size: 18px;
+	color:#666;
+	padding-bottom: 13px;
+	border-bottom: solid 3px red;
+	line-height: 24px;
+	position: relative;
+	z-index: 1;
+	top:5px;
+	
+}
+#register-layout #left #menu li a i{
+	display: block;
+	border-style:solid dashed dashed dashed ;
+	border-color:#F32613 transparent transparent transparent;
+	border-width: 7px;
+	width: 0;
+	height: 0;
+	position: absolute;
+	left:50%;
+	margin-left: -4px;
+	bottom: -17px;
+	
+}
+#register-layout #left #content{
+	height: 314px;
+	position: relative;
+}
+#register-layout #left #content #default1{
+	position: absolute;
+	top:30px;
+	
+	
+}
+#register-layout #left #default1 form{
+	margin:20px 0 0 100px;
+	width:400px;
+	height: 315px;
+	border:1px solid #ccc;
+	border-bottom:0;
+}
+#register-layout #left #default1 form dl{
+	height:52px;
+	width:400px;
+	border:1px solid #ccc;
+}
+#register-layout #left #default1 form dd{
+	width:308px ;
+	float: left;
+	height:53px;
+}
+#register-layout #left #default1 form input{
+	width:306px ;
+height:50px;
+}
+#register-layout #left #default1 form dt{
+	height:53px;
+	width:92px;
+	text-align: center;
+	float: left;
+	line-height: 53px;
+}
+.submit{
+	text-align: center;
+	width:400px;
+	background: red;
+	font-size: 20px;
+	color: #fff;
+}
+.ckbox input{
+	width:100px;
+	text-align: center;
+}
+#register-layout #right{
+	width: 200px;
+	height: 500px;
+	float: left;
+	padding:  20px 0 0 19px;
+	border-left: 1px solid #CCCCCC;
+}
+#register-layout #right .qq001{
+	background: url(../images/login.png) no-repeat -95px 0px ;
+margin-right:20px;
+	display:inline-block;
+	width: 34px;
+	height: 34px;
+}
+#register-layout #right .weixin001{
+	background: url(../images/login.png) no-repeat -160px 0px ;
+
+	display:inline-block;
+	width: 34px;
+	height: 34px;
+}
+#register-layout #right .after1{
+	height: 241px;
+	width: 200px;
+		margin-top:10px ;
+}
+#register-layout #right .after1 li{
+	height:50px;
+	width: 200px;
+
+}
+
+#register-layout #right .after1 .icon1 i{
+	margin-top:0px;
+margin-right:20px;
+	background: url(../images/login_pic.png) no-repeat 0 -79px ;
+	width: 24px;
+	height: 20px;
+	display: inline-block;
+	height: ;
+}
+#register-layout #right .after1 .icon2 i{
+	margin-top:0px;
+	margin-right:20px;
+	background: url(../images/login_pic.png) no-repeat -30px -76px ;
+	width: 24px;
+	height: 20px;
+	display: inline-block;
+	height: ;
+}
+#register-layout #right .after1 .icon3 i{
+	margin-top:0px;
+	margin-right:20px;
+	background: url(../images/login_pic.png) no-repeat -60px -76px ;
+	width: 24px;
+	height: 20px;
+	display: inline-block;
+	height: ;
+}
+#register-layout #right .after1 .icon4 i{
+	margin-top:0px;
+	margin-right:20px;
+	background: url(../images/login_pic.png) no-repeat -90px -76px ;
+	width: 24px;
+	height: 20px;
+	display: inline-block;
+	
+}
+#register-layout #right .after1 .icon5 i{
+	margin-top:0px;
+	margin-right:20px;
+	background: url(../images/login_pic.png) no-repeat -120px -76px ;
+	width: 24px;
+	height: 20px;
+	display: inline-block;
+
+}
+#register-layout #right .after1 .icon6 i{
+	margin-top:0px;
+	margin-right:20px;
+	background: url(../images/login_pic.png) no-repeat -150px -76px ;
+	width: 24px;
+	height: 20px;
+	display: inline-block;
+
+}
+#register-layout #left #phone form{
+	margin:20px 0 0 100px;
+	width:400px;
+	height: 315px;
+
+	border-bottom:0;
+	position: absolute;
+	
+}
+#register-layout #left #phone form dl{
+	height:52px;
+	width:400px;
+	border:1px solid #ccc;
+}
+#register-layout #left #phone form dd{
+	
+	width:308px ;
+	float: left;
+	height:53px;
+}
+#register-layout #left #phone form input{
+width:306px ;
+height:50px;
+}
+#register-layout #left #phone form dt{
+	height:53px;
+	width:92px;
+	text-align: center;
+	float: left;
+	line-height: 53px;
+}
